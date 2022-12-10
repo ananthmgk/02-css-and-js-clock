@@ -3,6 +3,18 @@ window.addEventListener('load', () => {
     const minutesHand = document.querySelector('.min-hand');
     const hourHand = document.querySelector('.hour-hand');
 
+    const weekdayList = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
+    const monthList = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+
+    const now = new Date();
+    const day = weekdayList[now.getDay()];
+    const month = monthList[now.getMonth()];
+    const date = now.getDate();
+
+    document.querySelector(".day-display").innerHTML = day;
+    document.querySelector(".month-display").innerHTML = month;
+    document.querySelector(".date-display").innerHTML = date;
+
 function setDate() {
     const now = new Date();
     const seconds = now.getSeconds();
@@ -16,9 +28,7 @@ function setDate() {
     secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
     minutesHand.style.transform = `rotate(${minutesDegrees}deg)`;
     hourHand.style.transform = `rotate(${hourDegrees}deg)`;
-
-    console.log(hourDegrees);
-}
+};
 
 setInterval(setDate, 1000);
 });
