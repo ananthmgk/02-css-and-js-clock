@@ -129,12 +129,11 @@ body {
 }
 
 .twelve-num {
-    /* border: 1px solid red; */
     width: 13%;
     height: 10%;
     position: absolute;
-    top: 0%;
-    right: 43%;
+    top: 2%;
+    right: 44%;
     color: grey;
     font-size: 200%;
 }
@@ -143,8 +142,8 @@ body {
     width: 13%;
     height: 10%;
     position: absolute;
-    top: 43.5%;
-    right: -5%;
+    top: 44.7%;
+    right: -2%;
     color: grey;
     font-size: 200%;
 }
@@ -153,8 +152,8 @@ body {
     width: 13%;
     height: 10%;
     position: absolute;
-    top: 87%;
-    right: 40%;
+    top: 84%;
+    right: 40.5%;
     color: grey;
     font-size: 200%;
 }
@@ -164,11 +163,47 @@ body {
     height: 10%;
     position: absolute;
     top: 45%;
-    right: 85%;
+    right: 83%;
     color: grey;
     font-size: 200%;
 }
 
+.line-one {
+    width: 2.4%;
+    height: 3%;
+    position: absolute;
+    top: 0%;
+    right: 48.7%;
+    background-color: rgb(243, 84, 84);
+}
+
+.line-two {
+    width: 3%;
+    height: 2.4%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    background-color: rgb(243, 84, 84);
+}
+
+.line-three {
+    width: 2.4%;
+    height: 3%;
+    position: absolute;
+    top: 97%;
+    right: 48.5%;
+    background-color: rgb(243, 84, 84);
+}
+
+.line-four {
+    /* border: 1px solid red; */
+    width: 3%;
+    height: 2.4%;
+    position: absolute;
+    top: 50.2%;
+    right: 97%;
+    background-color: rgb(243, 84, 84);
+}
 
 @media (max-width: 430px) {
     .clock {
@@ -274,8 +309,8 @@ body {
         width: 13%;
         height: 10%;
         position: absolute;
-        top: 0%;
-        right: 46%;
+        top: 2%;
+        right: 45%;
         color: grey;
         font-size: 200%;
     }
@@ -285,7 +320,7 @@ body {
         height: 10%;
         position: absolute;
         top: 44%;
-        right: -4%;
+        right: -2%;
         color: grey;
         font-size: 200%;
     }
@@ -294,7 +329,7 @@ body {
         width: 13%;
         height: 10%;
         position: absolute;
-        top: 86%;
+        top: 83%;
         right: 41%;
         color: grey;
         font-size: 200%;
@@ -305,7 +340,7 @@ body {
         height: 10%;
         position: absolute;
         top: 44%;
-        right: 85%;
+        right: 83%;
         color: grey;
         font-size: 200%;
     }
