@@ -278,7 +278,7 @@ body {
     height: 1rem;
     border-radius: 50%;
     background-color: black;
-    transform: translate(860%, 890%);
+    transform: translate(138px, 143px);
   }
 
   .center-round-sec {
@@ -286,7 +286,7 @@ body {
     height: 0.7rem;
     border-radius: 50%;
     background-color: red;
-    transform: translate(1250%, 1160%);
+    transform: translate(140.5px, 130.5px);
   }
 
   .date-container {
