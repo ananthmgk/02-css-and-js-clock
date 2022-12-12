@@ -348,7 +348,7 @@ body {
     font-size: 200%;
   } */
 }
-
+/* 
 @media (420px <= width <= 560px) {
   .center-round-min {
     width: 1.3rem;
@@ -365,4 +365,4 @@ body {
     background-color: red;
     transform: translate(1485%, 1510%);
   }
-}
+} */
