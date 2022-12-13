@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
   const month = monthList[now.getMonth()];
   const date = now.getDate();
 
-  button.addEventListener('click', () => {
+  clockFace.addEventListener('click', () => {
     if (clockFace.classList == 'clock-face') {
       clockFace.classList.remove('clock-face');
       clockFace.classList.add('clock-face2');
