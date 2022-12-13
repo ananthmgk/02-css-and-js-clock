@@ -4,6 +4,7 @@ window.addEventListener('load', () => {
   const hourHand = document.querySelector('.hour-hand');
   const button = document.querySelector('.button');
   const clockFace = document.querySelector('.clock-face');
+  const WholeClock = document.querySelector('.clock');
 
   const weekdayList = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
   const monthList = [
@@ -26,7 +27,16 @@ window.addEventListener('load', () => {
   const month = monthList[now.getMonth()];
   const date = now.getDate();
 
-  clockFace.addEventListener('click', () => {
+  function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * letters.length)];
+    }
+    return color;
+  }
+
+  WholeClock.addEventListener('click', () => {
     if (clockFace.classList == 'clock-face') {
       clockFace.classList.remove('clock-face');
       clockFace.classList.add('clock-face2');
@@ -37,6 +47,7 @@ window.addEventListener('load', () => {
       clockFace.classList.remove('clock-face3');
       clockFace.classList.add('clock-face');
     }
+    WholeClock.style.border = `15px solid ${getRandomColor()}`;
   });
 
   document.querySelector('.day-display').innerHTML = day;
