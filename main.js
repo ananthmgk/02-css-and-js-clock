@@ -2,7 +2,6 @@ window.addEventListener('load', () => {
   const secondHand = document.querySelector('.second-hand');
   const minutesHand = document.querySelector('.min-hand');
   const hourHand = document.querySelector('.hour-hand');
-  const button = document.querySelector('.button');
   const clockFace = document.querySelector('.clock-face');
   const WholeClock = document.querySelector('.clock');
 
